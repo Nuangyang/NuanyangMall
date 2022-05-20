@@ -1,0 +1,452 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none ;color: black;
+    background-color: rgba(0,0,0,0);
+}
+body{
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+div {
+    display: block;
+}
+
+
+/*顶部样式*/
+.header{
+    position: relative;
+    z-index: 30;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+.site-topbar{
+    position: relative;
+    z-index: 30;
+    height: 40px;
+    font-size: 12px;
+    color: #B0B0B0;
+    background: #333;
+}
+.container{
+    width: 1226px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+    color:#b0b0b0 ;
+
+}
+.logo{
+    font-size: 12px;
+    color: #b0b0b0;
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.logo>a{
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+    margin: 0px 0px 0px 30px;
+}
+.topbar-cart{
+    position: relative;
+    float: right;
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    color: #b0b0b0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-size: 12px;
+    display: block;
+}
+.cart-mini{
+    position: relative;
+    z-index: 32;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    background: #424242;
+    text-decoration: none;
+    font-size: 12px;
+}
+.iconfont-cart{
+    margin-right: 4px;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: -4px;
+    font-family: iconfont!important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    content: "\E60C";
+}
+.topbar-info{
+    font-size: 12px;
+    color: #b0b0b0;
+    position: relative;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+}
+.message{
+    position: relative;
+    z-index: 30;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+    padding: 0 10px;
+    float: left;
+}
+.denglv{
+    padding: 0 5px;
+    text-align: center;
+    float: left;
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+}
+.zhuce{
+    padding: 0 5px;
+    text-align: center;
+    float: left;
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+}
+
+.header-search{
+    display: block;
+    float: right;
+    width: 296px;
+    margin-top: 25px;
+}
+
+.heiad{
+	background: #fff;
+    box-shadow: 0 1px 4px #e3e3e3;
+    width: 100%;
+    margin: 0 auto;
+    zoom: 1;
+	width: 100%;
+}
+.heiad_wrapper{
+	   margin: 0 auto;
+    zoom: 1;
+	    width: 1090px;
+    min-width: 1090px;
+}
+.head_certif{
+	margin-top: 30px;
+    float: right;
+    width: 60%;
+}
+.cart_flag{
+	width: 166px;
+    height: 32px;
+	position: relative;
+    float: right;
+    z-index: 4;
+}
+.cart_box{
+	width: 166px;
+    height: 32px;
+	color: rgb(86, 86, 86);
+    font-size: 13px;
+    font-family: 宋体;
+    display: inline-block;
+    background:url(../images/maincart.png) left top no-repeat;
+}
+
+.cart_logtext{
+	line-height: 32px;
+    padding-left: 45px;
+}
+
+.nav_cart_num{
+	    width: 18px;
+    height: 20px;
+    top: -13px;
+    left: 27px;
+    color: #FFF;
+    padding: 0;
+    margin: 0;
+}
+
+/*商品展示*/
+.global_body{
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+.detail_wrap{
+	    width: 1090px;
+    margin: 0 auto;
+    padding-top: 20px;
+ 
+    padding-bottom: 30px;
+    border-top: none;
+}
+.goods_img_show{
+	float: left;
+	width: 500px;
+	height: 500px;
+	
+}
+.good_details{
+	    float: left;
+    margin-left: 30px;
+    width: 330px;
+}
+.r_second{
+ 	widows: 330px;
+
+	padding-bottom: 10px;
+	padding: 25px 0;
+    border-bottom: 1px dotted #c5c5c5;
+    font: 12px/1.5 'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1',tahoma,arial,sans-serif;
+	margin: 120px 0px 0px 10px;
+}
+.price_module{
+	widows: 330px;
+	height: 15px;
+	padding-bottom: 20px;
+	    list-style: none;
+}
+.jumei_price{
+	display: list-item;
+    text-align: -webkit-match-parent;
+	float: left;
+	color: #232323;
+    font-size: 38px;
+    line-height: 1;
+    font-family: arial;
+    margin-right: 10px;
+}
+.jp_cur{
+	    font-size: 24px;
+    font-family: arial;
+    vertical-align: top;
+    line-height: 1.4;
+    margin-right: 5px;
+        font-style: normal;
+    font-weight: 400;
+        color: #232323;
+}
+
+/*盒子浮动*/
+.good_simg{
+	width: 510px;
+}
+.good_details{
+	widows: 330px;
+	height: 117px;
+	left: auto;
+}
+.r_second_policy_wrap{
+	left: auto;
+	margin-bottom: 6px;
+
+    overflow: hidden;
+}
+.r_second_policy{
+	    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	color: #525252;
+    font-size: 13px;
+}
+.zhe{
+	    font-style: normal;
+    font-weight: 400;
+	font-size: 13px;
+	    background-color: #000;
+    color: #fff;
+    padding: 1px 4px;
+    margin-right: 10px;
+}
+.man{
+	color: #525252;
+    font-size: 13px;
+    font: 12px/1.5 'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1',tahoma,arial,sans-serif;
+}
+
+.people_clearfix{
+	padding: 18px 0 20px;
+    border-bottom: 1px dotted #c5c5c5;
+    color: #999;
+}
+.num_fl{
+	    float: left;
+	background-position: 0 3px;
+    margin-right: 40px;
+    background-image: url(../images/pop_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 23px;
+}
+
+.rushu{
+	color: #fd4d87;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.r_second{
+	padding-top: 12px;
+	    padding: 10px 0;
+    border-bottom: 1px dotted #c5c5c5;
+}
+.mail_op{
+	    color: #8e8e8e;
+    font-size: 13px;
+    padding-top: 13px;
+        display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.dts{
+	    float: left;
+	        color: #8e8e8e;
+    font-size: 13px;
+    padding-top: 13px;
+}
+.dds{
+	    width: 264px;
+	        float: left;
+	        display: block;
+    margin-inline-start: 40px;
+    color: #8e8e8e;
+    font-size: 13px;
+    padding-top: 13px;    
+}
+
+.dts1{
+    float: left;
+    color: #8e8e8e;
+    font-size: 13px;
+    padding-top: 13px;
+    font: 12px/1.5 'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1',tahoma,arial,sans-serif;
+}
+.dds1{
+    width: 264px;
+    float: left;
+        display: block;
+    margin-inline-start: 40px;
+        color: #8e8e8e;
+    font-size: 13px;
+    padding-top: 13px;
+    ont: 12px/1.5 'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1',tahoma,arial,sans-serif;
+}
+
+
+/*加入购物车*/
+.r_fourth{
+	    color: #000;
+	border-bottom: none;
+    padding: 25px 0 15px;
+        font: 12px/1.5 'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1',tahoma,arial,sans-serif;
+
+	margin: 150px 0px 0px 50px;
+}
+
+.addgoods{
+	    margin-right: 0;
+    width: 183px;
+    height: 41px;
+    line-height: 41px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+	background-color: #ed145b;
+	text-decoration: none;
+}
+.add{
+	    display: inline-block;
+}
+.gname{
+	
+	float: left;
+	
+	margin: 35px 0px 0px 10px;
+}
+.backgr{
+	background-color: #F5F5F5;
+	height: 900px;
+}
+.goods_num{
+	color:#ee330e
+	
+}
+
+/*xvanfu*/
+
+.hometools{
+    position: fixed;
+    bottom:450px;
+    right: 0;
+    z-index: 99;
+}
+.dateva{
+    position: relative;
+    display: block;
+    width: 82px;
+    height: 90px;
+    margin-top: -1px;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    text-align: center;
+}
+
+.icon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 8px;
+    padding-top: 18px;
+}
+.default{
+    width: 30px;
+    height: 30px;
+}
+.datev{
+    color: #757575;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+}

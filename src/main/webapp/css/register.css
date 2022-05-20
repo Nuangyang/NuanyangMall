@@ -1,0 +1,266 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 12px;
+    background: url(../images/logodenglv.png);
+}
+
+/*顶部===============*/
+.dingbu{
+	width: 100%;
+	height: 85px;
+	
+}
+.logo{
+	width: 960px;
+	height: 85px;
+	margin: 0 auto;
+
+}
+.tupian{
+
+	width: 360px;
+    height: 85px;
+    overflow: hidden;
+    float: left;
+    font-size: 0;
+    line-height: 0;
+    background-repeat: no-repeat;
+}
+
+.tupian2{
+	display: inline-block;
+    padding-top: 35px;
+    float: right;
+}
+.a1{
+	width: 110px;
+    height: 31px;
+    background: url(../img/header_corn_new_v2.png);
+    overflow: hidden;
+    margin-right: 24px;
+    float: right;	
+    background-position: 0 -64px;
+}
+.a2{
+	    width: 110px;
+    height: 31px;
+    overflow: hidden;
+    margin-right: 24px;
+    float: right;
+    background-image: url(../img/gild.png);
+    width: 170px
+}
+.a3{
+	width: 110px;
+    height: 31px;
+    overflow: hidden;
+    margin-right: 24px;
+    float: right;
+    background-image: url(../img/header_corn_new_v2.png);
+    background-position: 0 0;
+}
+/*中间=================*/
+.zhongjian{
+	width: 100%;
+	height: 460px;
+
+}
+
+.jvzhong{
+	width: 965px;
+	height: 460px;
+	margin: 0 auto;
+		
+}
+.neirong{
+	width: 960px;
+	height: 370px;
+	background: url(../img/signPic.jpg) no-repeat;
+    position: relative;
+    width: 960px;
+    height: 370px;
+ 	margin: 10% 0px 0px 0px;
+}
+.jpg{
+	display: block;
+    position: absolute;
+    width: 420px;
+    height: 370px;
+}
+
+.denglv{
+	width: 356px;
+	height: 520px;
+	top: -80px;
+	-webkit-box-shadow: 0 0 4px rgb(0 0 0 / 8%);
+    box-shadow: 0 0 4px rgb(0 0 0 / 8%);
+    background: rgba(255,255,255,.85);
+    border: 1px solid #ededed;
+    position: absolute;
+    min-height: 400px;
+    padding: 0 23px;
+    width: 310px;
+    color: #333;
+    top: -60px;
+    right: 0;
+
+}
+
+.shanghe{
+	width: 310px;
+	height: 60px;
+	line-height: 60px;
+}
+.shang{
+	color: #969696;
+	width: 96px;
+	height: 60px;
+	float: right;
+}
+
+.weibu{
+	width: 109px;
+	height: 60px;
+}
+.a{
+    color: #ed145b;
+    text-decoration: none;
+        cursor: pointer;	
+        float: right;
+}
+.biaoti{
+	font-weight: 400;
+    font-size: 20px;
+    color: #e31256;
+}
+strong{
+	font-weight: bold;
+
+}
+
+.form{
+	width: 310px;
+	width: 402px;
+}
+.text{
+	width: 302px;
+	height: 43px;
+}
+
+input[type=text]{
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #CFCFCF;
+    background-color: #fff;
+    vertical-align: middle;
+    padding: 10px 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    outline: 0;
+    height: auto;
+    width: 284px;
+}
+.duanxin{
+	width: 310px;
+	height: 44px;
+	margin-top: 15px;
+	
+}
+.duanx{
+	width: 156px;
+	height: 43px;
+}
+.aduan{
+    border: 1px solid #d9d9d9;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 8px;
+    display: inline-block;
+    line-height: 41px;
+    height: 41px;
+    font-weight: 700;
+    color: #666;
+    text-align: center;
+    float: right;
+   margin: -43px 31px 0px 0px;
+}
+.duanx>input{
+	    width: 138px;
+}
+
+.link{
+	    height: 44px;
+	    margin-top: 20px;
+}
+.textbox>input{
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #CFCFCF;
+    background-color: #fff;
+    vertical-align: middle;
+    padding: 10px 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    outline: 0;
+    height: auto;
+    width: 284px;
+}
+
+
+.link1{
+	    height: 44px;
+	    margin-top: 20px;
+}
+.textbox1>input{
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #CFCFCF;
+    background-color: #fff;
+    vertical-align: middle;
+    padding: 10px 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    outline: 0;
+    height: auto;
+    width: 284px;
+}
+
+.act{
+	width: 310px;
+	height: 68px;
+}
+.act>p>input{
+	border: 1px solid #F9477A;
+    display: inline-block;
+    font-family: inherit;
+    word-break: keep-all;
+    background: #F8296D;
+    white-space: nowrap;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0 30px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+    margin-top: 25px;
+}
+a{
+	color: #ed145b;
+    text-decoration: none;
+
+}
+.act>p{
+	    margin-top: 10px;
+}
+
+.dibu{
+	margin: 4% 0px 0px 15%;
+}
+

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="../../css/showgoodscs.css"/>
+</head>
+<body>
+
+    <!--动态构建所有商品显示-->
+    <div>
+    <!--顶部-->
+    <div>
+        <div class="header">
+
+
+            <div class="site-topbar">
+
+                <div class="container">
+
+                    <div class="logo">
+                        <a href="homepage.html" >Nuangyang商城</a>
+
+
+
+                    </div>
+
+
+
+                    <div class="topbar-cart">
+                        <a href="" class="cart-mini">
+                            <em class="iconfont-cart"></em>
+                            <em></em>
+                            购物车
+                            <span>（0）</span>
+                        </a>
+                    </div>
+                    <div class="topbar-info">
+
+                        <a href="Signin.html" class="denglv" >登录</a>
+                        <a href="register.html" class="zhuce">注册</a>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+        <div class="logos">
+            <!--搜索框-->
+            <div class="header-search">
+                <form action="#" class="search-form" onsubmit="vaguues(this)">
+
+                    <input type="text"  name="valuser" class="search-text"/>
+
+                    <input type="submit"  class="search-btn" value=" "/>
+
+                </form>
+
+            </div>
+        </div>
+
+
+        <div class="ssss">
+            <!--商品主页-->
+            <!--分类条-->
+            <div class="showgoods">
+                <div class="showgoodswrap">
+                    <div class="showgoodslist">
+                        <ul class="itemshow">
+                            <span class="label">分类:</span>
+                            <li>
+                                <a href="javascript:void(0)" class="active" onclick="category(this)" caid="1">游戏</a>
+                                <a href="javascript:void(0)" class="active" onclick="category(this)" caid="2">手机</a>
+                                <a href="javascript:void(0)" class="active" onclick="category(this)" caid="3">外设显卡</a>
+                                <a href="javascript:void(0)" class="active" onclick="category(this)" caid="4">化妆品</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--商品显示-->
+            <div class="search-result">
+                <div class="reuslt-order">
+                    <div class="order-list-box">
+                        <ul class="order-list">
+                            <li class="order-list-active">
+                                <a href="javascript:void(0)">综合</a>
+                            </li>
+                        </ul>
+
+                        <ul class="type-list">
+                            <li class="type-list-as" >
+                                <a href="javascript:void(0)" ></a>
+                                <span class="checkbox">
+                                    <i class="iconfont" onclick="stock(this)">√</i>
+                                </span>
+                                仅看有货
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="goods-list-box">
+                        <div class="goods-list-clearfix">
+                            <!--复用商品盒子-->
+                         <!--   <div class="goods-item">
+                            <a href="javascript:void(0)" class="figure">
+                                <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                <h2 class="title">nuangyang</h2>
+                                <p class="prive" >
+                                    <span>2555</span>
+                                    <span>元起</span>
+                                </p>
+                                <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                            </a>
+                        </div>-->
+                            <!--
+                            <div class="goods-item">
+                                <a href="javascript:void(0)" class="figure">
+                                    <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                    <h2 class="title">nuangyang</h2>
+                                    <p class="prive" >
+                                        <span>2555</span>
+                                        <span>元起</span>
+                                    </p>
+                                    <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                                </a>
+                            </div>
+
+
+                            <div class="goods-item">
+                                <a href="javascript:void(0)" class="figure">
+                                    <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                    <h2 class="title">nuangyang</h2>
+                                    <p class="prive" >
+                                        <span>2555</span>
+                                        <span>元起</span>
+                                    </p>
+                                    <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                                </a>
+                            </div>
+
+                            <div class="goods-item">
+                                <a href="javascript:void(0)" class="figure">
+                                    <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                    <h2 class="title">nuangyang</h2>
+                                    <p class="prive" >
+                                        <span>2555</span>
+                                        <span>元起</span>
+                                    </p>
+                                    <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                                </a>
+                            </div>
+
+                            <div class="goods-item">
+                                <a href="javascript:void(0)" class="figure">
+                                    <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                    <h2 class="title">nuangyang</h2>
+                                    <p class="prive" >
+                                        <span>2555</span>
+                                        <span>元起</span>
+                                    </p>
+                                    <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                                </a>
+                            </div>
+
+                            <div class="goods-item">
+                                <a href="javascript:void(0)" class="figure">
+                                    <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                    <h2 class="title">nuangyang</h2>
+                                    <p class="prive" >
+                                        <span>2555</span>
+                                        <span>元起</span>
+                                    </p>
+                                    <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                                </a>
+                            </div>
+
+                            <div class="goods-item">
+                                <a href="javascript:void(0)" class="figure">
+                                    <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                    <h2 class="title">nuangyang</h2>
+                                    <p class="prive" >
+                                        <span>2555</span>
+                                        <span>元起</span>
+                                    </p>
+                                    <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                                </a>
+                            </div>
+
+                            <div class="goods-item">
+                                <a href="javascript:void(0)" class="figure">
+                                    <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                    <h2 class="title">nuangyang</h2>
+                                    <p class="prive" >
+                                        <span>2555</span>
+                                        <span>元起</span>
+                                    </p>
+                                    <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                                </a>
+                            </div>
+
+                            <div class="goods-item">
+                                <a href="javascript:void(0)" class="figure">
+                                    <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                    <h2 class="title">nuangyang</h2>
+                                    <p class="prive" >
+                                        <span>2555</span>
+                                        <span>元起</span>
+                                    </p>
+                                    <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                                </a>
+                            </div>
+
+                            <div class="goods-item">
+                                <a href="javascript:void(0)" class="figure">
+                                    <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                    <h2 class="title">nuangyang</h2>
+                                    <p class="prive" >
+                                        <span>2555</span>
+                                        <span>元起</span>
+                                    </p>
+                                    <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                                </a>
+                            </div>
+
+                            <div class="goods-item">
+                                <a href="javascript:void(0)" class="figure">
+                                    <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                    <h2 class="title">nuangyang</h2>
+                                    <p class="prive" >
+                                        <span>2555</span>
+                                        <span>元起</span>
+                                    </p>
+                                    <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                                </a>
+                            </div>-->
+
+                      <!--      <div class="goods-item">
+                                <a href="javascript:void(0)" class="figure">
+                                    <div class="figure-imgs"><img src="../../images/01.png" alt=""></div>
+                                    <h2 class="title">nuangyang</h2>
+                                    <p class="prive" >
+                                        <span>2555</span>
+                                        <span>元起</span>
+                                    </p>
+                                    <div class="thumbs"><img src="../../images/01.png" alt=""></div>
+                                </a>
+                            </div>-->
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!--底部-->
+    <!--全部页面展示-->
+  <div class="dao">
+    <div class="daohang" id="daohang">
+<a href="javascript:void(0);" onclick="sXye(this)" pagennum="-1" >上一页</a>
+<!--<a href="javascript:void(0);" onclick="add01(this)" pagennum="1">1</a>
+<a href="javascript:void(0);" onclick="add01(this)" pagennum="2">2</a>
+<a href="javascript:void(0);" onclick="add01(this)" pagennum="3">3</a>
+<a href="javascript:void(0);" onclick="add01(this)" pagennum="4">4</a>
+<a href="javascript:void(0);" onclick="" pagennum="1">.....</a>
+<a href="javascript:void(0);" onclick="lower(this)"pagennum="-1">下一页</a>-->
+</div>
+</div>
+
+    <!--悬浮窗口--><!--动态构建-->
+    <div class="hometools">
+        <!--	<a href="PersonalCenter.html" class="dateva">
+            <div class="icon">
+                &lt;!&ndash;默认头像&ndash;&gt;
+                <img src="../../images/defuimg.png" alt="" class="default">
+            </div>
+            <span class="datev">nuangyang</span>
+
+        </a>
+
+            <a href="gouwuche.html" class="dateva">
+                <div class="icon">
+                    &lt;!&ndash;默认头像&ndash;&gt;
+                    <img src="../../images/gouwuche.png" alt="" class="default">
+                </div>
+                <span class="datev">购物车</span>
+
+            </a>
+
+            &lt;!&ndash;管理员显示&ndash;&gt;
+            <a href="Administratorinterface.html" class="dateva">
+                <div class="icon">
+                    &lt;!&ndash;默认头像&ndash;&gt;
+                    <img src="../../images/asi.png" alt="" class="default">
+                </div>
+                <span class="datev" style="color: red">管理平台</span>
+
+            </a>-->
+
+
+
+
+    </div>
+
+
+
+    <script type="text/javascript" src="../../js/jquery-3.6.0.js">
+    </script>
+
+    <script type="text/javascript" src="../../js/showgoodsjs.js" >
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,428 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+ul,li{ padding:0;margin:0;list-style:none}
+body {
+    margin: 0;
+    color: rgba(0,0,0,.65);
+    font-size: 14px;
+    font-family: "MiSans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    background-color: #fff;
+    -webkit-font-feature-settings: "tnum","tnum";
+    font-feature-settings: "tnum","tnum";
+}
+.layout{
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    min-width: 1080px;
+    padding-bottom: 40px;
+}
+
+.header{
+    padding: 20px;
+    overflow: hidden;
+}
+.header-logo{
+    float: left;
+    height: 40px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #333;
+    line-height: 40px;
+
+}
+.logoss{
+    width: 200px;
+    height: 100px;
+}
+
+.header-nav{
+    float: right;
+
+}
+
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #838383;
+    line-height: 40px;
+}
+.nav-item>span{
+    color: #ff5c00;
+}
+
+/*展示*/
+.container{
+    zoom: 1;
+    max-width: 1440px;
+    margin: 20px auto;
+    padding: 0 80px;
+    position: relative;
+}
+
+.sider{
+    position: absolute;
+    width: 260px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 20px 50px 6px hsl(0 deg 0% 64% / 10%);
+    border-radius: 4px;
+}
+
+
+
+
+.content{
+    position: relative;
+    margin-left: 280px;
+    min-height: calc(100vh - 160px);
+    background: #fff;
+    box-shadow: 0 20px 50px 6px hsl(0% 0% 64% / 10%);
+    border-radius: 4px;
+}
+
+.user-touxiang{
+    width: 220px;
+    height: 245px;
+    background-size: cover;
+    padding: 40px 20px;
+    background: url(../images/background.75b99c80.png);
+}
+.img-user{
+    margin: 0 auto;
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    overflow: hidden;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.user-uanme{
+    margin: 5px auto 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    width: 220px;
+    height: 40px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #333;
+    line-height: 40px;
+}
+
+.user-emil{
+
+    text-align: center;
+    width: 220px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.profile-layout{
+    width: 100%;
+    margin-top: 20px;
+    border-right: none;
+    box-shadow: none;
+}
+
+.ant-menu-item{
+    padding-left: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    height: 60px;
+    line-height: 60px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+    padding-left: 70px;
+}
+
+.tor-portals{
+    padding: 10px 20px;
+    position: relative;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.tor-div{
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 4px solid #333;
+    height: 20px;
+    margin: 0 6px 0 -10px;
+}
+
+.tor-span{
+    padding: 10px 20px;
+    position: relative;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 19px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.formfield-root{
+    zoom: 1;
+    padding: 20px;
+    height: 100px;
+    font-size: 17px;
+    color: #333;
+}
+
+.formfield-control{
+    zoom: 1;
+    padding: 20px;
+    height: 100px;
+    font-size: 17px;
+    color: #333;
+    float: left;
+    line-height: 60px;
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+}
+
+
+.formfield-img{
+    width: 360px;
+    margin-left: 20px;
+    float: left;
+}
+
+.avatar-box{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar-image{
+    vertical-align: middle;
+    border-style: none;
+    width: 60px;
+    height: 60px;
+}
+
+
+.formfield-users{
+    zoom: 1;
+    padding: 20px;
+    height: 100px;
+    font-size: 17px;
+    color: #333;
+}
+
+
+
+
+
+
+.formfield-uname{
+    zoom: 1;
+    padding: 20px;
+    height: 100px;
+    font-size: 17px;
+    color: #333;
+    float: left;
+    line-height: 60px;
+    width: 114px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+}
+
+.formfield-useruname{
+    width: 360px;
+    margin-left: 20px;
+    float: left;
+}
+
+.uname{
+    zoom: 1;
+    padding: 20px;
+    height: 100px;
+    line-height: 110px;
+    padding: 0 20px;
+    font-size: 17px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.formfield-roots{
+    width: 100px;
+    height: 100px;
+}
+
+.formfield-controlc{
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    font-size:1.4em;
+    height:2.7em;
+    border-radius:4px;
+    border:1px solid #c8cccf;
+    color:#6a6f77;
+    outline:0;
+}
+
+.tijiaotouxiang{
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    font-size:1.4em;
+    height:2.7em;
+    border-radius:4px;
+    border:1px solid #c8cccf;
+    color:#6a6f77;
+    outline:0;
+}
+
+.inputs{
+    outline-style: none ;
+    outline-style: none ;
+    border: 0px;
+    outline-style: none ;
+    border: 1px solid #ccc;
+    outline-style: none ;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px 0px;
+    width: 440px;
+    outline-style: none ;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 14px 14px;
+    width: 620px;
+    font-size: 24px;
+    outline-style: none ;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 14px 14px;
+    width: 620px;
+    font-size: 24px;
+    font-family: "Microsoft soft";
+    outline-style: none ;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 13px 14px;
+    width: 620px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Microsoft soft";
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+
+    margin: 30px 0px 0px 0px ;
+}
+.sex-input{
+    margin: 38px 0px 0px 0px ;
+}
+.dianji{
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+
+    color: #e9e9e9;
+    border: solid 1px #555;
+    background: #6e6e6e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));
+    display: inline-block;
+    zoom: 1;
+    *: ;
+    display: inline;
+    vertical-align: baseline;
+    margin: 0 2px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: 0.5em 2em 0.55em;
+    text-shadow: 0 1px 1px rgb(0 0 0 /30%);
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: .5em;
+    border-radius: 0.5em;
+    -webkit-box-shadow: 0 1px 2px rgb(0 0 0 /20%);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgb(0 0 0 /20%);
+}
+
+.xinzen{
+    margin: 250px 0px 0px 0px;
+}
+
+.moren{
+    margin: 40px 0px 0px 0px;
+}
+.dizhi{
+    margin: 150px 0px 0px 0px;
+}
+
+
+.biaotou_biao>span{
+    margin: 0px 5px;
+}
+
+.biaotou_biao>i{
+    margin: 0px 5em;
+}
+
+.goodsput>span{
+    margin: 0px 0em  0px 184px;
+}
+
+.fanhui{
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 50px;
+    border-radius: 200px;
+    background-color: #FEAE1B;
+    border-color: #FEAE1B;
+    color: #FFF;
+    display: inline-block;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 300;
+    transition-property: all;
+    transition-duration: .3s;
+
+    float: right;
+}

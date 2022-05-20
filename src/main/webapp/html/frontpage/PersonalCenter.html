@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../css/PersonalCenters.css"/>
+
+</head>
+<body>
+
+<div class="root">
+    <div class="account-root">
+        <div class="layout">
+            <!--顶部-->
+            <div class="header">
+                <div class="header-logo">
+                    <img src="../../images/Nuangyang.png" class="logoss"/>
+                </div>
+                <div class="header-nav">
+                    <a href="" class="nav-item">用户协议</a>
+                    <a href="" class="nav-item">隐私政策</a>
+                    <a href="" class="nav-item">帮助中心</a>
+                    <span class="nav-item" onclick="delUser()">
+								<span>退出</span>
+							</span>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <!--核心-->
+            <div class="container">
+                <!--左-->
+                <div class="sider">
+                    <!--头像-->
+                    <div class="user-touxiang">
+                  <!--      <img src="../../images/20.png" alt=""  class="img-user"/>
+                        <div class="user-uanme">Nuangyang</div>
+                        <div class="user-emil">1106847129@qq.com</div>-->
+                    </div>
+
+
+                    <!--功能-->
+                    <ul class="profile-layout">
+                        <li class="ant-menu-item" onclick="shuxin()">个人信息</li>
+                        <li class="ant-menu-item" onclick="dianjiDel()">修改信息</li>
+                        <li class="ant-menu-item" onclick="dianjiDingdan()">订单管理</li>
+                        <li class="ant-menu-item" onclick="shouwuo()">收货地址</li>
+                    </ul>
+                </div>
+
+
+
+
+                <!--右-->
+                <div class="content">
+
+                    <div class="tor-portals">
+                        <div class="tor-div"></div>
+                        <span class="tor-span">个人信息</span>
+                    </div>
+
+
+
+
+                    <!--展示个人信息-->
+
+                    <div style="padding-bottom: 60px"  id="xixi">
+
+                                            <!--   <div class="formfield-root">
+                                                   <div class="formfield-control">头像</div>
+
+                                                   <div class="formfield-img">
+                                                       <div class="avatar-box">
+                                                           <img src="img/20.png" alt="" / class="avatar-image">
+                                                       </div>
+                                                   </div>
+
+
+
+                                               <div class="formfield-users">
+                                                   <div class="formfield-uname"></div>
+
+                                                   <div class="formfield-useruname">
+                                                       <div class="uname"></div>
+                                                   </div>
+                                               </div>
+
+
+
+                                               <div class="formfield-users">
+                                                   <div class="formfield-uname">昵称:</div>
+
+                                                   <div class="formfield-useruname">
+                                                       <div class="uname">Nuangyang</div>
+                                                   </div>
+                                               </div>
+
+
+
+
+                                               <div class="formfield-users">
+                                                   <div class="formfield-uname">手机号:</div>
+
+                                                   <div class="formfield-useruname">
+                                                       <div class="uname">15023312249</div>
+                                                   </div>
+                                               </div>
+
+
+                                               <div class="formfield-users">
+                                                   <div class="formfield-uname">账户状态:</div>
+
+                                                   <div class="formfield-useruname">
+                                                       <div class="uname" style="color: rgb(255, 92, 0);"><a href="">注册会员</a></div>
+                                                   </div>
+                                               </div>
+
+
+                                               <div class="formfield-users">
+                                                   <div class="formfield-uname">国家/地区</div>
+
+                                                   <div class="formfield-useruname">
+                                                       <div class="uname">中国</div>
+                                                   </div>
+                                               </div>
+                                           </div>-->
+                                    </div>
+
+
+
+                    <!--修改信息-->
+                    <!--	<div style="padding-bottom: 60px" >
+
+
+
+
+                            <div class="formfield-roots">
+                                <form action="" method="post" enctype="multipart/form-data">
+                                <p style="font-size: 17px;">上传新头像</p>
+                                <input type="file" class="formfield-controlc" name="upload" />
+                                <input type="submit" value="上传头像"  class="tijiaotouxiang"/>
+                                </form>
+                            </div>
+
+
+
+                            <div class="formfield-users">
+                                <div class="formfield-uname"></div>
+
+                                <div class="formfield-useruname">
+                                    <div class="uname"><p>==========修改个人信息==========</p></div>
+                                </div>
+                            </div>
+
+
+                        <form action="" method="post">
+
+
+                            <div class="formfield-users">
+                                <div class="formfield-uname">修改用户名:</div>
+
+                                <div class="formfield-useruname">
+                                    <input type="text" name="uname"  placeholder="这里输入用户名" class="inputs"/>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="formfield-users">
+                                <div class="formfield-uname">修改密码</div>
+
+                                <div class="formfield-useruname">
+                                    <input type="password" name="upwd"  placeholder="这里输入密码" class="inputs"/>
+                                </div>
+                            </div>
+
+
+                            <div class="formfield-users">
+                                <div class="formfield-uname">修改手机</div>
+
+                                <div class="formfield-useruname">
+                                    <input type="text" name="ushouji"  placeholder="这里输入手机" class="inputs"/>
+                                </div>
+                            </div>
+
+
+                            <div class="formfield-users">
+                                <div class="formfield-uname">性别</div>
+
+                                <div class="formfield-useruname">
+                                    <div class="sex-input">
+                                    男&nbsp;<input type="radio" name="sex" value="1"/>
+                                    女&nbsp;<input type="radio" name="sex" value="0"/>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                                <div class="formfield-users">
+                                <div class="formfield-uname">出生年月</div>
+
+                                <div class="formfield-useruname">
+                                    <input type="text" name="birthday"  placeholder="这里输入生日" class="inputs"/>
+                                </div>
+                            </div>
+
+
+                                    <input type="submit" value="提交修改" class="dianji"/>
+                        </form>
+                        </div>
+
+
+
+                    </div>-->
+
+
+                    <!--订单管理-->
+
+
+
+
+
+                    <!--收获地址-->
+                    <!--
+                            <div class="formfield-root">
+                                <div class="formfield-control">默认地址：</div>
+
+                                <div class="formfield-img">
+                                        <p class="moren">"+ust.data.address+"</p>
+                                </div>
+
+                    <div class="dizhi">
+
+                        <p>已有地址:</p>
+                        <ul class="gengduodizhi">
+                            <li>
+                                <span>重庆市江北区红旗河沟理想大厦4F</span>
+                                <button>更换默认</button>
+                            </li>
+                            <li>
+                                <span>重庆市江北区红旗河沟理想大厦4F</span>
+                                <button>更换默认</button>
+                            </li>
+                            <li>
+                                <span>重庆市江北区红旗河沟理想大厦4F</span>
+                                <button>更换默认</button>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                    <div class="xinzen">
+                    <p>新增地址</p>
+                        <form action="" method="post">
+                            <select name="" id="as1" onchange="addcity(this)" >
+                            <option value="-1">====请选择===</option>
+
+                             </select>
+                            <select id="arr">
+                            <option value="" id="asd" >====请选择===</option>
+
+                             </select>
+                            <input type="text" pattern="详细地址"/>
+                            <input type="submit" value="一键新增"/>
+                        </form>
+                        </div>
+                    </div>
+
+                        -->
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <script type="text/javascript" src="../../js/jquery-3.6.0.js">
+        </script>
+
+        <script type="text/javascript" src="../../js/personallcenter.js" >
+
+        </script>
+</body>
+</html>

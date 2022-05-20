@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image:url("../images/Assshei.png");
+		color: red;
+		
+}
+
+.subject{
+		float: left;
+	width: 100%;
+	height: 700px;
+
+}
+
+.left{
+	float: left;
+	margin: 5em 0em 0em 5em;
+}
+
+.right{
+	margin:5em 0px 0px 20em;
+		float: left;
+}
+
+.dingbu{
+	width: 100%;
+	height: 110px;
+		
+	/*background-color: #000000;*/
+}
+.logg{
+float: left;
+margin:30px 0px 0px 40%;
+}
+
+button{
+	    color: #666;
+    background-color: #EEE;
+    border-color: #EEE;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 40px;
+    margin: 0;
+    display: inline-block;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+	    margin: 0px;
+	    border-radius: 200px;
+	    background-color: #FF4351;
+    border-color: #FF4351;
+    color: #FFF;
+    margin: 10px 0px 0px 0px;
+}
+
+.goodsimg{
+	width: 150px;
+	height: 150px;
+	margin: 0px 0px 0px 10px;
+}
+
+.del{
+	margin: 4em 0em 0em 10em;
+}
+
+.snum{
+		margin: 0em 0em 0em 5em;
+}
+
+.sousuo{
+	height: 45px;
+	margin: 0em 0em 0em 2em;
+}
+
+.user{
+	width:1100px;
+}
+.user-button{
+	height: 50px;
+}

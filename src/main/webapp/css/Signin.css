@@ -1,0 +1,239 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-size:12px;
+	font-family: Tahoma,Geneva,sans-serif;
+}
+.background{
+	height: 1080px;
+	background:url(../images/dier.png)
+}
+
+/*顶部菜单==================*/
+.dingbu{
+	width: 100%;
+	height: 85px;
+	
+}
+.dingbujvzhong{
+	width: 960px;
+	height: 85px;
+	margin: 0 auto;
+}
+
+.dialog{	
+	background-image: url(images/logo_new_v1.jpg);
+	width: 360px;
+	height: 85px;
+}
+
+.dlogo1{
+	width: 461.97px;
+	height: 65.99px;
+	padding-top: 35px;
+	float:right;
+	
+}
+.a1{
+	width: 110px;
+    height: 31px;
+    overflow: hidden;
+    margin-right: 24px;
+    float: right;
+    background: url(../images/header_corn_new_v2.png) no-repeat top center transparent;
+    background-position: 0 -64px;
+    margin: 30px 20px 0px 0px;
+}
+.a2{
+	width: 130px;
+	height: 31px;
+	background-image: url(../imgages/header_corn_new_v2.png);
+	overflow: hidden;
+	margin-right: 24px;
+	float: right;
+	background-position: 0 -31px;
+	 margin: 30px 20px 0px 0px;s
+}
+.a3{
+	background-image: url(../images/header_corn_new_v2.png);
+	width: 110px;
+	height: 31px;
+	overflow: hidden;
+	margin-right: 24px;
+	float: right;
+	background-position: 0 0;
+	margin: 30px 31px 0px 0px;
+	
+}
+.zhongjian{
+	width: 100%;
+	height:418px ;
+	
+}
+.zhongjianjvzhong{
+	width: 965px;
+	height: 418px;
+	margin-bottom: 50px;
+	margin: 0 auto;
+	
+}
+.bg-img{
+	background: url(../images/loginPic.jpg) no-repeat;
+    width: 960px;
+    height: 360px;
+    position: absolute;
+    top: 25%;
+}
+.denglvkang{
+	width: 345.99px;
+	height: 417.97px;
+	background-color: saddlebrown;
+	float: right;
+	box-shadow: 0 0 4px rgb(0 0 0 / 8%);
+	position:relative;
+	top: 130px;
+	z-index: 2;
+	color: #FFFAFA;
+	padding: 0 23px;
+	min-height: 400px;
+	background: rgba(255,255,255,0.1);
+}
+.loginTit{
+	width: 300px;
+	height: 60px;
+}
+.zhece{
+	width: 149.11px;
+	height: 60px;
+	float: right;
+	margin: 10px 10px 0px 0px;
+}
+.zhece>a{
+	color: #ed145b;
+    text-decoration: none;
+}
+.zhece>span{
+	 color: #969696;
+}
+
+.biaote{
+	font-weight: 400;
+    font-size: 20px;
+    color: #e31256;
+    margin-top: 15px;
+}
+.biaote>strong{
+	
+	font-weight: bold;
+
+}
+.shuru{
+	
+	height: 30px;
+	display: block;
+	margin-top: 30px;
+	
+}
+.shuru>span{
+	display：block;
+	padding-right: 14px;
+	float: left;
+	margin: 13px -60px 0px 75px;
+	color: #FFFAFA;
+	
+	
+}
+.text{
+	width: 302px;
+	height: 43px;
+}
+
+input[type=text]{
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #CFCFCF;
+    background-color: #fff;
+    vertical-align: middle;
+    padding: 10px 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    outline: 0;
+    height: auto;
+    width: 284px;
+}
+
+.link{
+	    height: 44px;
+	    margin-top: 20px;
+}
+.textbox>input{
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #CFCFCF;
+    background-color: #fff;
+    vertical-align: middle;
+    padding: 10px 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    outline: 0;
+    height: auto;
+    width: 284px;
+}
+
+.p{
+	margin: 10px 0;
+	display: block;
+	position: absolute;
+	top: 210px;
+	left: 26px;
+}
+
+.p>span{
+	margin-left:180px;
+}
+
+.zhongdi{
+	margin-top: 65px;
+}
+
+.dibu{
+	margin: 8% 0px 0px 25%;
+}
+
+
+
+
+.act{
+	width: 310px;
+	height: 68px;
+}
+.act>p>input{
+	border: 1px solid #F9477A;
+    display: inline-block;
+    font-family: inherit;
+    word-break: keep-all;
+    background: #F8296D;
+    white-space: nowrap;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0 30px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+    margin-top: 25px;
+}
+a{
+	color: #ed145b;
+    text-decoration: none;
+
+}
+.act>p{
+	    margin-top: 10px;
+}
